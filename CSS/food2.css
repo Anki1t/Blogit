@@ -1,0 +1,70 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding-top: 100px;
+}
+
+#content {
+  min-height: 600px;
+}
+.navbar-brand {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  position: relative;
+  font-size: 45px;
+  margin: 0px;
+
+}
+.dropbtn:hover{
+  color:#f8f8f8;
+}
+/*.para1 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2%;
+}*/
+
+#banner_image {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(/img/food2.jpg) no-repeat center center;
+  background-size: cover;
+  height: 50%;
+}
+h1 {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 75px;
+}
+.para{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  padding-bottom:10px;
+}
+#item_list {
+  padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+#login-panel .panel-footer {
+  font-weight: normal;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+}

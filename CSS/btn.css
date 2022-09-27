@@ -1,0 +1,21 @@
+#btn1{
+    padding-top: 30px;
+    margin-right: 20px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+
+}
+#btnc1{
+    background-color: rgba(240, 8, 8, 0.63);
+    color: antiquewhite;
+    opacity: 100%;
+    display: block;
+    
+}
+#btnc2{
+    background-color: rgb(195, 231, 141);
+}
+#btnc3{
+    background-color: rgb(238, 155, 155);
+}

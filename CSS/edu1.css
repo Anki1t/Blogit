@@ -1,0 +1,111 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding-top: 90px;
+}
+
+#content {
+  min-height: 600px;
+}
+.para1 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2%;
+}
+p{
+  font-size:25px;
+}
+
+#banner_image {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(/img/edu1.webp) ;
+  background-size: cover;
+  height: 70%;
+}
+h1 {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 75px;
+}
+
+#item_list {
+  padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+.headr{
+  width:1000px;
+ text-align: right;
+}
+
+ #login-panel .panel-footer {
+  font-weight: normal;
+}
+
+.comment1 .container{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+}
+
+.box-container{
+  height: 200px;
+  width: 100%;
+  background-color: #444;
+  box-shadow: 0 5px 15px #111;
+  border-radius: 5px;
+  padding: 15px;
+  display: none;
+}
+.box-container .box{
+  height:80%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f8f8f8;
+  overflow: auto;
+  text-align: left;
+}
+#input{
+  width: 100%;
+  height: 40px;
+  background:none;
+font-size:15px;
+color: #fff;
+border-bottom: 1px solid #fff;
+}
+#input:focus{
+  border-bottom:2px solid#fff
+}
+button{
+  height: 30px;
+  width: 160px;
+  background-color: #ff0033;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 15px;
+  box-shadow:  0 3px 15px #111;
+  border-radius: 5px;
+}
+button:hover{
+  opacity: .8;
+} */
+
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+}

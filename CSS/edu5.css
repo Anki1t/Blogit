@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  padding-top: 100px;
+}
+
+#content {
+  min-height: 600px;
+}
+.para1 {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2%;
+}
+
+#banner_image {
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(/img/edu5.jpeg) ;
+  background-size: cover;
+  height: 70%;
+}
+h1 {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 75px;
+}
+
+#item_list {
+  padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+#login-panel .panel-footer {
+  font-weight: normal;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  width: 100%;
+}

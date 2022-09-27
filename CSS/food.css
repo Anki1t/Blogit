@@ -1,0 +1,91 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding-top: 100px;
+    background-color: #101010;
+}
+
+body.h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+
+
+
+
+#content {
+    min-height: 600px;
+    width: 90%;
+}
+
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 45px;
+    margin: 0px;
+
+}
+.dropbtn:hover{
+    color:#f8f8f8;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(/img/foodban.jpg) no-repeat center center;
+    background-size: cover;
+    position: top;
+
+}
+
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+#rndblogs {
+
+    width: 100%;
+    background-color: #101010;
+    text-decoration: none;
+    text-decoration-color: #f8f8f8;
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+
+#login-panel .panel-footer {
+    font-weight: normal;
+}
+
+footer {
+    position: relative;
+    padding: 10px 0;
+    background-color: #101010;
+    color: #9d9d9d;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}

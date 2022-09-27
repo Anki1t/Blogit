@@ -1,0 +1,175 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+   
+}
+
+
+#content{
+    min-height: 600px;
+}
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    position: relative;
+    font-size: 45px;
+    margin: 0px;
+  
+}
+.dropbtn:hover{
+    color:#f8f8f8;
+}
+
+/* #banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(/img/pets.jfif)  center center;
+    background-size: cover;
+    height:56%;
+    opacity: 0.7;
+    justify-content: center;
+    
+} */
+b{
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px grey;
+    font-style: italic;
+}
+.featured .one h4{
+    font-size: 15px;
+    color:bisque;
+   
+}
+.featured .two h4{
+    font-size: 15px;
+    color:bisque;
+   
+}
+
+.text h1{
+    font-size:200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 4px 4px pink;
+    letter-spacing: 30px;
+
+}
+ .bold{
+    margin-top:50px;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bold;
+    color:bisque;
+  
+
+}
+
+#item_list {
+    padding-top: 50px;
+}
+
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+/*footer {
+    padding: 10px 0 ;
+    position: relative;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 0;
+    margin-right: 5px;
+} 
+
+/* footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+} */
+.featured .row .one a{
+    font-size: 15px;
+    color: whitesmoke;
+    border: gray;
+    border-radius: 3px;
+    padding: 3px;
+    margin:5px;
+    
+}
+.featured .row .two a{
+    font-size: 15px;
+    color: whitesmoke;
+    border: gray;
+    
+}
+
+.featured .row .middle img{
+    height: 200%;
+    width:100%;
+    border-radius: 5px; 
+    margin-top: 250px; 
+   
+}
+
+.featured .row .one{
+    height: 300px;
+
+}
+.featured .row .one img{
+    margin-top:2%;
+    width: 90%;
+    height: 100%;
+    filter: grayscale(1) brightness(0.5);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s linear;
+    padding:0 4px;
+    box-shadow: 10px 10px 10px black;
+    
+    
+
+}
+.featured .row .two{
+    height:300px;
+
+}
+.featured .row .two img{
+    margin-top:2%;
+    width: 90%;
+    height: 100%;
+    filter: grayscale(1) brightness(0.5);
+    cursor:pointer;
+    border-radius: 5px;
+    transition: 0.3s linear;
+    padding:0 4px;
+    box-shadow:  10px 10px 10px black;
+    
+}
+.featured .row img:hover{
+    filter: grayscale(0) brightness(1);
+}
+footer {
+    padding-right: 100px;
+
+    background-size: cover;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+

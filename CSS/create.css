@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+    background: url(/img/createbg1.jpg)no-repeat center center;
+   
+
+}
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(/img/createban.jpg)no-repeat center center;
+    background-size: cover;
+    position: top;
+}
+
+#frm1{
+    width:90%;
+    padding-left: 0;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    font-size: larger;
+}
+#blg1{
+    width: 100%;
+    box-sizing: border-box;
+}
+#txt1{
+    width: 100%;
+}
+#txt2{
+    width: 100%;
+}

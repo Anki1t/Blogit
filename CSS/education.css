@@ -1,0 +1,114 @@
+
+h1 {
+  font-size: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  padding-top: 75px;
+}
+
+#item_list {
+  padding-top: 50px;
+}
+
+/* This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header */
+
+#login-panel .panel-footer {
+  font-weight: normal;
+}
+
+footer {
+  padding: 10px 0;
+  background-color: #101010;
+  color: #000000;
+  bottom: 0;
+  width: 100%;
+}
+.section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    text-align: center;
+
+} 
+.section-title span{
+    color: red;
+}
+.container{
+  color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 20px;   
+    background-color: rgb(66, 66, 66);
+}
+.container1{
+    transition: .3s ease ;
+}
+.container1:hover{
+    transform: scale(1.1);
+}
+.containert2{
+  flex-direction: row;
+}
+.container2:nth-child(even){
+  flex-direction: row-reverse; }
+
+.custom-readme{
+  background: transparent;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 12px 36px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 60%;
+}
+.custom-readme a{
+  color: #111;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.custom-readme::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 64px;
+  background: red;
+  left: -56px;
+  top: -11px;
+  transform: rotate(20deg);
+  opacity: 0.1;
+  transition:m, 400ms;
+}
+.custom-readme:hover::after{
+  left: 100%;
+  opacity: 1;
+}
+.containert2{
+  flex-direction: row;
+}
+.like_btn{
+
+  padding: 10px 15px;
+  background: red;
+  font-size: 18px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer ;
+  }
+  #comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;}
+
+    #comment-box{
+      margin-left: 150px;
+    }
