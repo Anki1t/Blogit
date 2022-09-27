@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/bootstrap-3.3.6/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/CSS/bootstrap-3.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/market4.css">
+    <link rel="stylesheet" href="/CSS/dropdown.css">
+    <script src="/CSS/JS/dropdown.js"></script>
+    <title>Marketing</title>
+</head>
+
+<body style="padding-top: 50px;">
+    <div class="navbar navbar-inverse navbar-fixed-top" id="nav1"> //Default navigation bar
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar">...</span>
+                    <span class="icon-bar">...</span>
+                    <span class="icon-bar">...</span>
+                </button>
+                <a class="navbar-brand" href="index.html">BLOG-IT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-book"></span> About</a></li>
+                    <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Tecnology</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Pets</a></li>
+                            <li><a href="#">Environment</a></li>
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form class="navbar-form navbar-right" role="search">
+                            <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                          </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+     <!--Main banner image-->
+     <div id="banner_image">
+        <div class="container">
+            <center>
+                <div id="banner_content">
+                    <h1>Things to know about GA4</h1>
+
+                    <br />
+                    
+                </div>
+            </center>
+        </div>
+    </div>
+    <!--Main banner image end-->
+    <div class="para">
+        <p>
+            Hi, my name is Dana DiTomaso. I'm President at Kick Point. And I am here today at MozCon
+            2022 to bring you some details on the exciting world of Google Analytics 4, which I know all
+            of you are like, "Ugh, I don't want to learn about analytics," which is totally fair. I also
+            did not want to learn about analytics.
+
+            And then I kind of learned about it whether I liked it or not. And you should, too,
+            unfortunately.
+
+            So I think the biggest thing about the move from Universal Analytics to GA4 is that people
+            are like the y log in and everything looks different. "I don't like it." And then they leave.
+            And I agree the user interface in GA4 leaves a lot to be desired. I don't think there's
+            necessarily been a lot of good education, especially for those of us who aren't analysts on
+            a day-to-day basis.
+
+            We're not all data scientists. I'm not a data scientist. I do marketing. So what I'm hoping
+            is I can tell you the things you should know about GA4 on just a basic sort of level, so
+            that you have a better vocabulary to talk about it when people are horrified by the move to
+            GA4, which is inevitable. It's going to happen. You've got to get it on your site starting
+            basically immediately, if you don't already have it. So I started out with three things, and
+            then I realized there was a fourth thing. So you get a bonus, exciting bonus, but we'll
+            start with the first three things.
+
+            1. It's different
+            So the first thing it's different, which I know is obvious. Yes, of course, Dana it's
+            different. But it's different. Okay, so in Universal Analytics, there were different types
+            of hits that could go into analytics, which is where hits came from originally as a metric
+            that people talked about. So, for example, in Universal Analytics, you could have a
+            pageview, or you could have a transaction, or you could have an event.
+
+            And those were all different types of hits. In GA4, everything is an event. There is a
+            pageview event. There is a transaction event. There is, well, an event event. I mean, you
+            name the events whatever you want. And because of that, it's actually a lot better way to
+            report on your data.
+
+            So, for example, one of the things that I know people always wanted to be able to report on
+            in Universal Analytics is what pages did people see and how did that relate to conversion
+            rate. And that was really tricky because a pageview was something that was at the hit scope
+            level, which means it was just like the individual thing that happened, whereas conversion
+            rate is a session scoped thing.
+
+            So you couldn't mash together a hit scope thing with pageview with conversion rate, which is
+            session scoped. They just didn't combine together unless you did some fancy blending stuff
+            in Data Studio. And who's got time for that? So now in GA4, because everything is an event,
+            you have a lot more freedom with how you can slice and dice and interpret your data and
+            figure out what pages do people engage with before they actually converted, or what was that
+            path, not just the landing page, but the entire user journey on their path to conversion. So
+            that part is really exciting.
+
+            2. Engagement rate is not reverse bounce rate
+            Second thing, engagement rate is a new metric in GA4. They do have bounce rate. They did
+            recently announce it. I'm annoyed at it, so we're going to talk about this a little bit.
+            Engagement rate is not reverse bounce rate. But it is in GA4.
+
+            So in Universal Analytics, bounce rate was a metric that people reported on all the time,
+            even though they shouldn't have. I hate bounce rate so much. Just picture like a dumpster
+            fire GIF right now across your screen. I hate bounce rate. And why I hate bounce rate is
+            it's so easily faked. Let's say, for example, your boss says to you, "Hey, you know what,
+            the bounce rate on our site is too high. Could you fix it?"
+
+            You're like, "Oh, yeah, boss. Totally." And then what you do is whenever somebody comes on
+            your website, you send what's called an interactive event off to Google Analytics at the
+            same time. And now you have a 0% bounce rate. Congratulations. You got a raise because you
+            made it up. Bounce rate could absolutely be faked, no question. And so when we moved over to
+            GA4, originally there was no bounce rate.
+
+            There was engagement rate. Engagement rate has its own issues, but it's not measuring
+            anything similar to what bounce rate was. Bounce rate in UA was an event didn't happen. It
+            didn't matter if you spent an hour and a half on the page reading it closely. If you didn't
+            engage in an event that was an interactive event, that meant that you were still counted as
+            a bounce when you left that page.
+
+            Whereas in GA4, an engage session is by default someone spending 10 seconds with that tab,
+            that website open, so active in their browser, or they visited two pages, or they had a
+            conversion. Now this 10-second rule I think is pretty short. Ten seconds is not necessarily
+            a lot of time for someone to be engaged with the website.
+
+            So you might want to change that. It's under the tagging settings in your data stream. So if
+            you go to Admin and then you click on your data stream and you go to more tagging settings
+            and then you go to session timeouts, you can change it in there. And I would recommend
+            playing around with that and seeing what feels right to you. Now GA4 literally just as I'm
+            filming this has announced bounce rate, which actually it is reverse engagement rate. Please
+            don't use it.
+
+            Instead, think about engagement rate, which I think is a much more usable metric than bounce
+            rate was in UA. And I'm kind of excited that bounce rate in UA is going away because it was
+            [vocalization]..
+        </p>
+           
+
+            <div class="btn-group btn-group-lg" role="group" aria-label="..." id="btn1">
+                <button type="button" class="btn btn-default" id="btnc1">like</button>
+                <button type="button" class="btn btn-default" id="btnc2">comment</button>
+                <button type="button" class="btn btn-default" id="btnc3">share</button>
+              </div>
+    </div>
+    <footer>
+        <div class="container">
+            <center>
+                <p>Copyright copy; Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+            </center>
+        </div>
+    </footer>
+</body>
+
+</html>
